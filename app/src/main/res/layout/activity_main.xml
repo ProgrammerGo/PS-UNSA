@@ -10,7 +10,7 @@
         android:id="@+id/constraintLayout"
         android:layout_width="408dp"
         android:layout_height="719dp"
-        android:background="#FAE4C5"
+        android:background="#D1C23F"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.32"
@@ -24,7 +24,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="52dp"
             android:layout_marginEnd="8dp"
-            android:background="#FF7E00"
+            android:background="#1A67A5"
             android:text="Comenzar"
             android:textColor="#FFFFFF"
             app:layout_constraintEnd_toEndOf="parent"
@@ -38,12 +38,27 @@
             android:layout_width="0dp"
             android:layout_height="328dp"
             android:layout_marginStart="50dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="192dp"
             android:layout_marginEnd="60dp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/logoplano" />
+            app:srcCompat="@drawable/logobici" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="177dp"
+            android:layout_height="54dp"
+            android:layout_marginBottom="48dp"
+            android:fontFamily="@font/architects_daughter"
+            android:text="BICI-GO"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
     </android.support.constraint.ConstraintLayout>
 

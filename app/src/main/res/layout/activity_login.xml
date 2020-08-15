@@ -10,7 +10,7 @@
         android:id="@+id/constraintLayout"
         android:layout_width="0dp"
         android:layout_height="95dp"
-        android:background="#FF7E00"
+        android:background="@android:color/holo_blue_dark"
         app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
@@ -30,10 +30,10 @@
 
         <TextView
             android:id="@+id/idNotificacion"
-            android:layout_width="128dp"
-            android:layout_height="53dp"
+            android:layout_width="239dp"
+            android:layout_height="54dp"
             android:layout_marginTop="4dp"
-            android:text="Login"
+            android:text="INICIAR SESION"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="30sp"
@@ -45,9 +45,9 @@
 
     <android.support.constraint.ConstraintLayout
         android:id="@+id/constraintLayout2"
-        android:layout_width="0dp"
-        android:layout_height="578dp"
-        android:background="#E9E9E9"
+        android:layout_width="504dp"
+        android:layout_height="683dp"
+        android:background="@drawable/bici2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -60,7 +60,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="32dp"
             android:layout_marginEnd="8dp"
-            android:background="#FF7E00"
+            android:background="@android:color/holo_blue_dark"
             android:text="Registrarse"
             android:textColor="#FFFFFF"
             app:layout_constraintEnd_toEndOf="parent"
@@ -140,7 +140,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="32dp"
                 android:layout_marginEnd="8dp"
-                android:background="#FF7E00"
+                android:background="@android:color/holo_blue_dark"
                 android:text="Ingresar"
                 android:textColor="#FFFFFF"
                 app:layout_constraintEnd_toEndOf="parent"

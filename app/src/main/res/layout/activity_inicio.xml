@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="@drawable/bici"
     tools:context=".Inicio">
 
     <android.support.constraint.ConstraintLayout
         android:id="@+id/constraintLayout"
         android:layout_width="413dp"
         android:layout_height="203dp"
-        android:background="#FF7E00"
+        android:background="#00FF7E00"
         app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
@@ -49,9 +49,10 @@
         android:layout_width="0dp"
         android:layout_height="510dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="4dp"
         android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
 
@@ -62,9 +63,9 @@
 
             <Button
                 android:id="@+id/btIniciarRecorrido"
-                android:layout_width="match_parent"
+                android:layout_width="223dp"
                 android:layout_height="50dp"
-                android:background="#FF7E00"
+                android:background="#2196F3"
                 android:backgroundTintMode="add"
                 android:drawableLeft="@drawable/flag"
                 android:paddingLeft="10dp"
@@ -73,9 +74,9 @@
 
             <Button
                 android:id="@+id/btHistorial"
-                android:layout_width="match_parent"
+                android:layout_width="223dp"
                 android:layout_height="50dp"
-                android:background="#ff8814"
+                android:background="#45A5F1"
                 android:drawableLeft="@drawable/historial_icon"
                 android:paddingLeft="10dp"
                 android:text="Historial"
@@ -83,9 +84,9 @@
 
             <Button
                 android:id="@+id/btRecompensas"
-                android:layout_width="match_parent"
+                android:layout_width="223dp"
                 android:layout_height="50dp"
-                android:background="#ff9227"
+                android:background="#70B7EF"
                 android:drawableLeft="@drawable/regalo_icon"
                 android:paddingLeft="15dp"
                 android:text="Recompensas"
@@ -93,11 +94,11 @@
 
             <Button
                 android:id="@+id/btNotificaciones"
-                android:layout_width="match_parent"
+                android:layout_width="223dp"
                 android:layout_height="50dp"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
-                android:background="#ff9c3b"
+                android:background="#9FD1F8"
                 android:drawableLeft="@drawable/campana_icon"
                 android:drawablePadding="8dp"
                 android:paddingLeft="15dp"
@@ -106,9 +107,9 @@
 
             <Button
                 android:id="@+id/btEncuentranos"
-                android:layout_width="match_parent"
+                android:layout_width="223dp"
                 android:layout_height="50dp"
-                android:background="#ffa64e"
+                android:background="#C0DAEF"
                 android:drawableLeft="@drawable/flag"
                 android:paddingLeft="10dp"
                 android:text="Encuentranos"
@@ -116,9 +117,9 @@
 
             <Button
                 android:id="@+id/btSalir"
-                android:layout_width="match_parent"
+                android:layout_width="223dp"
                 android:layout_height="50dp"
-                android:background="#F7AF69"
+                android:background="#D6E7F4"
                 android:drawableLeft="@drawable/salir_icon"
                 android:paddingLeft="10dp"
                 android:text="Salir"
